@@ -24,6 +24,7 @@ sections.forEach(s => observer.observe(s));
 const fadeEls = document.querySelectorAll(
   '#about .section-title, #about .about-grid, ' +
   '#skills .section-title, .skill-group, ' +
+  '#experience .section-title, .experience-card, ' +
   '#contact .section-title, .contact-intro, .contact-card'
 );
 
